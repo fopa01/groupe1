@@ -42,23 +42,6 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
-<<<<<<< HEAD
- form {
-    border: 2px solid #333;
-    padding: 15px;
-    margin-top: 3px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
-    width: 400px;
-    background-image: url('télécharger.jpg');
-    background-size: cover;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: white;
-    color: white;
-
-    
-}
-=======
 
 
 
@@ -115,5 +98,22 @@ body {
 .hero button:hover {
     background-color: #0056b3;
 }
-
->>>>>>> 100ec592e5f9ffab9b109cb9160529f1b9f4a59d
+/*groupe 5*/
+img{
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+img:hover{
+    transform: scale(1.2);
+    color: #333;
+}
+.r{
+    width: 300px;
+    display: flex;
+    
+}
+.r div{
+    margin: 20px;
+}
