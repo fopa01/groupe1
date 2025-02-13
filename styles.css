@@ -4,6 +4,47 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    transition: background-color 0.3s, color 0.3s;
+    color: #000000;
+}
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+button:hover:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+button:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    width: fit-content;
+}
+
+button {
+    border-right: red;
+    background-color: #333;
+    color: #f4f4f4f4;
+    
+    cursor: pointer;
+    transition: box-shadow 0.4s ease;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: auto;
+}
+.but{
+    position:absolute;
+    display: flex;
+    width: 1000px;
+    justify-content: flex-end;
+}
+nav{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
 }
 
 header {
@@ -16,7 +57,7 @@ header {
     margin-left: 50px;
     background-color: rgb(252, 224, 188);
     padding: 50px;
-    width: 1024px;
+    width: 1395px;
 }
 .row{
     position: relative;
@@ -170,18 +211,4 @@ body {
 }
 .r div{
     margin: 20px;
-}
-form {
-    border: 2px solid #333;
-    padding: 15px;
-    margin-top: 3px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
-    width: 400px;
-    background-image: url('télécharger.jpg');
-    background-size: cover;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: white;
-    color: white;
-    
 }
